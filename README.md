@@ -4,4 +4,4 @@ First lesson on this newly created account
 
 YOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOO
 
-nah bozo. EZ
+nah bozo. EZ bozo
