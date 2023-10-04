@@ -17,6 +17,12 @@
             justify-content: center;
             align-items: center;
         }
+
+        .int {
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+        }
     </style>
 </head>
 <body>
@@ -35,10 +41,25 @@
                 <input type="tel" placeholder="Podaj numer telefonu (opcj)"><br>
             </fieldset>
             <fieldset>
-                <legend>Dane Komputera</legend>
+                <legend>Dane Dostarczenia</legend>
+                <label for="kraj">Kraj:</label>
+                <input type="text" placeholder="Podaj kraj" required><br>
+                <label for="miasto">Miasto:</label>
+                <input type="text" placeholder="Podaj miasto" required><br>
+                <label for="ulica">Ulica: </label>
+                <input type="text" placeholder="Podaj ulicę" required><br>
+                <label for="dommies">Dom/Nr. Mieszkania</label>
+                <input type="text" placeholder="Podaj dom/nr mieszkania" required><br>
+                <label for="kodpocz">Kod Pocztowy: </label>
+                <input type="text" placeholder="Podaj kod pocztowy" required><br>
             </fieldset>
             <fieldset>
-                <Legend></Legend>
+                <legend>Dane Komputera</legend>
+
+            </fieldset>
+            <fieldset class="int">
+            <input type="reset">
+            <input type="submit" value="Zatwierdź">
             </fieldset>
         </fieldset>
     </form>
