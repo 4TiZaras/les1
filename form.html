@@ -23,6 +23,11 @@
             justify-content: center;
             align-items: flex-end;
         }
+
+        label {
+            display: flex;
+            justify-content: space-between;
+        }
     </style>
 </head>
 <body>
@@ -31,30 +36,42 @@
         <fieldset>
             <fieldset>
                 <legend>Dane Personalne</legend>
-                <label for="imie">Imię: </label>
-                <input type="" placeholder="Podaj Imię" required><br>
-                <label for="nazwisko">Nazwisko: </label>
-                <input type="text" placeholder="Podaj Nazwisko" required><br>
-                <label for="mail">Mail: </label>
-                <input type="mail" placeholder="Podaj adres email"><br>
-                <label for="tel">Numer telefonu</label>
-                <input type="tel" placeholder="Podaj numer telefonu (opcj)"><br>
+                <label for="imie">Imię: 
+                    <input type="" placeholder="Podaj Imię" required>
+                </label>
+                <label for="nazwisko">Nazwisko: 
+                    <input type="text" placeholder="Podaj Nazwisko" required>
+                </label>
+                <label for="mail">Mail: 
+                    <input type="mail" placeholder="Podaj adres email">
+                </label>
+                <label for="tel">Numer telefonu: 
+                    <input type="tel" placeholder="Podaj numer telefonu (opcj)">
+                </label>
             </fieldset>
             <fieldset>
                 <legend>Dane Dostarczenia</legend>
-                <label for="kraj">Kraj:</label>
-                <input type="text" placeholder="Podaj kraj" required><br>
-                <label for="miasto">Miasto:</label>
-                <input type="text" placeholder="Podaj miasto" required><br>
-                <label for="ulica">Ulica: </label>
-                <input type="text" placeholder="Podaj ulicę" required><br>
-                <label for="dommies">Dom/Nr. Mieszkania</label>
-                <input type="text" placeholder="Podaj dom/nr mieszkania" required><br>
-                <label for="kodpocz">Kod Pocztowy: </label>
-                <input type="text" placeholder="Podaj kod pocztowy" required><br>
+                <label for="kraj">Kraj: 
+                    <input type="text" placeholder="Podaj kraj" required>
+                </label>
+                <label for="miasto">Miasto: 
+                    <input type="text" placeholder="Podaj miasto" required>
+                </label>
+                <label for="ulica">Ulica: 
+                    <input type="text" placeholder="Podaj ulicę" required>
+                </label>
+                <label for="dommies">Dom/Nr. Mieszkania: 
+                    <input type="text" placeholder="Podaj dom/nr mieszkania" required>
+                </label>
+                <label for="kodpocz">Kod Pocztowy: 
+                    <input type="text" placeholder="Podaj kod pocztowy" required>
+                </label>
             </fieldset>
             <fieldset>
                 <legend>Dane Komputera</legend>
+                <label for="kolor">Kolor obudowy: 
+                    <input type="color">
+                </label>
 
             </fieldset>
             <fieldset class="int">
