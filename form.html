@@ -79,11 +79,25 @@
                     <input type="color">
                 </label>
                 <label for="cpu">CPU: 
-                    <select>
-
+                    <select name="cpu" id="cpu" required>
+                        <option value="i7">Intel Core i7-860</option>
+                        <option value="i7">Intel Core i7-870</option>
+                        <option value="i7">Intel Core i7-875k</option>
+                        <option value="i7">Intel Core i7-920</option>
+                        <option value="i7">Intel Core i7-940</option>
+                        <option value="i7">Intel Core i7-950</option>
                     </select>
                 </label>
-
+                <label for="gpu">GPU:
+                    <select name="gpu" id="gpu">
+                        <option value="integra">Zintegrowana</option>
+                    </select>
+                </label>
+                <label for="ram">RAM: 
+                    <div>
+                        <input type="number" min="2" max="256" required>GB
+                    </div>
+                </label>
             </fieldset>
             <fieldset class="int">
             <input type="reset">
