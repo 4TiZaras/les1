@@ -129,9 +129,14 @@
                     <legend>Chłodzenie</legend>
                     <div>
                         <label for="chlwod">
-                            <div><input type="radio" name="chl">Chłodzenie Wodne </div></label>
+                            <div><input type="checkbox" name="chl">Chłodzenie Wodne </div></label>
                         <label for="wiatrak">
-                            <div><input type="radio" name="chl">Wiatraki </div></label>
+                            <div><input type="checkbox" name="chl">Wiatraki</div><div>Ilość<select name="ilo" id="ilo">
+                                <option value="wiatrak">2</option>
+                                <option value="wiatrak">4</option>
+                                <option value="wiatrak">8</option>
+                                <option value="wiatrak">16</option>
+                            </select></div></label>
                 </fieldset>
                 <fieldset>
                     <legend>Dodatkowe opcje</legend>
@@ -144,6 +149,17 @@
                         <label for="btx">Bluetooth <input type="checkbox"></label>
                     </div>
                 </fieldset>
+                <fieldset>
+                    <legend>Urządzenia peryferyjne</legend>
+                    <div>
+                        <label for="mysz">Myszka<input type="checkbox"></label>
+                        <label for="wifi"><input type="checkbox"></label>
+                        <label for="usb2"><input type="checkbox"></label>
+                        <label for="usb3"><input type="checkbox"></label>
+                        <label for="usb3.1"><input type="checkbox"></label>
+                        <label for="btx"><input type="checkbox"></label>
+                    </div>
+                </fieldset>
             </fieldset>
             <fieldset class="int">
             <input type="reset">
@@ -152,6 +168,7 @@
         </fieldset>
     </form>
     </div>
+    <br>
     <div class="rights">
         <h1>some of ideas came from Szymon.Z&copy;</h1>
     </div>
