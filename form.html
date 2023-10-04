@@ -10,12 +10,28 @@
             margin: 0;
         }
 
+        .rights {
+            display: flex;
+            justify-content: center;
+            font-size: 5px;
+            color: rgb(252, 255, 82)
+        }
+
+        body {
+            background-color: rgb(41, 55, 68);
+        }
+
         .dif {
             height: 100vh;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
+        }
+        
+        .difer {
+            display: flex;
+
         }
 
         .int {
@@ -29,10 +45,12 @@
             justify-content: space-between;
         }
 
-        .rights {
-            display: flex;
-            justify-content: center;
-            font-size: 5px;
+        fieldset {
+            background-color: rgb(199, 195, 138);
+        }
+
+        input {
+            background-color: rgb(255, 255, 255);
         }
     </style>
 </head>
@@ -45,7 +63,7 @@
                 <label for="imie">Imię: <input type="" placeholder="Podaj Imię" required></label>
                 <label for="nazwisko">Nazwisko: <input type="text" placeholder="Podaj Nazwisko" required></label>
                 <label for="mail">Mail: <input type="mail" placeholder="Podaj adres email"></label>
-                <label for="tel">Numer telefonu: <input type="tel" placeholder="Podaj numer telefonu (opcj)"></label>
+                <label for="tel">Numer telefonu: <input type="tel" placeholder="Podaj numer telefonu"></label>
             </fieldset>
             <fieldset>
                 <legend>Dane Dostarczenia</legend>
@@ -60,6 +78,10 @@
             <fieldset>
                 <legend>Dane Komputera</legend>
                 <label for="kolor">Kolor obudowy: <input type="color"></label>
+                <label for="obudowa">Rodzaj obudowy: <select>
+                    <option value="deskt">Desktop</option>
+                    <option value="twr">Tower</option>
+                </select></label>
                 <label for="cpu">CPU: 
                     <select name="cpu" id="cpu" required>
                         <option value="i7">Intel Core i7-860</option>
@@ -102,6 +124,14 @@
                         <label for="8192gb"><input type="radio" name="storage">8192GB</label>
                     </div>
                 </label>
+                </fieldset>
+                <fieldset>
+                    <legend>Chłodzenie</legend>
+                    <div>
+                        <label for="chlwod">
+                            <div><input type="radio" name="chl">Chłodzenie Wodne </div></label>
+                        <label for="wiatrak">
+                            <div><input type="radio" name="chl">Wiatraki </div></label>
                 </fieldset>
                 <fieldset>
                     <legend>Dodatkowe opcje</legend>
